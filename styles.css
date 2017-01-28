@@ -1,0 +1,133 @@
+header
+{
+height: 450px;
+background:url('img/hero-bg.jpg');
+background-position: center;
+background-size: cover;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+.logo
+{
+  margin: 10px 0px 0px 30px;
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-bottom: none;
+}
+nav
+{
+  float: right;
+  margin: 30px 30px 0px 0px;
+}
+nav a
+{
+  margin-left: 20px;
+  text-decoration: none;
+  color:rgba(0,0,0,0.7);
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+nav a:hover
+{
+color:black;
+text-decoration:none;
+}
+h1
+{
+  padding-top: 100px;
+  color:white;
+  font-size:72px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  clear: both;
+
+}
+.kicker
+{
+  color:white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+
+}
+.box
+{
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border: white solid 10px;
+}
+
+/*About Section */
+.about
+{
+  height: 1080px;
+  background-color: white;
+}
+
+h3
+{
+  color:#e1c182;
+  text-align: center;
+}
+
+.face-lockup
+{
+  max-width: 780px;
+  display: flex;
+  background-color: pink;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+/* Footer */
+.lockup
+{
+  padding-top: 50px;
+  height: 150px;
+  background:url('img/hero-bg.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.logo
+{
+  float: left;
+  margin-right: 30px;
+}
+.lockup .logo
+{
+opacity: 0.5;
+}
+.contant-wrap
+{
+  float: left;
+  text-transform: uppercase;
+}
+.contant-wrap nav a:first-child
+{
+  margin-left: 0px;
+}
+.contant-wrap nav
+{
+  margin-top: 20px;
+}
+svg
+{
+  height: 50px;
+  width: 50px;
+}
+.copyright
+{
+color:rgba(255, 0, 0, 0.3);
+}
