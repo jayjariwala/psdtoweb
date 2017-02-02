@@ -69,7 +69,6 @@ h1
 /*About Section */
 .about
 {
-  height: 1080px;
   background-color: white;
   margin-top:100px;
 }
@@ -140,9 +139,39 @@ order:5;
   }
 }
 
+/* skills */
+
+.skill-lockup
+{
+  max-width: 690px;
+  padding: 0 0 10px 10px;
+  margin:90px auto;
+  box-sizing: border-box;
+}
+
+.skill-name
+{
+  opacity: 0.6;
+}
+
+.progress-bar
+{
+  background-image:linear-gradient(to bottom,#e1c182 0,#e1c893 100%);
+}
+
+
+
+
 /* Footer */
+
+footer{
+  position: relative;
+  margin-top: 100px;
+}
+
 .lockup
 {
+
   padding-top: 50px;
   height: 150px;
   background:url('img/hero-bg.jpg');
