@@ -1,7 +1,7 @@
 header
 {
 height: 450px;
-background:url('img/hero-bg.jpg');
+background:url('asset/img/hero-bg.jpg');
 background-position: center;
 background-size: cover;
 }
@@ -70,7 +70,8 @@ h1
 .about
 {
   background-color: white;
-  margin-top:100px;
+  margin:100px 90px;
+
 }
 
 h3
@@ -120,8 +121,10 @@ order:5;
   padding: 0 0 10px 10px;
 }
 
-@media screen and (max-width:650px)
+@media screen and (max-width:700px)
 {
+
+
   .face-lockup
   {
     display: block;
@@ -159,22 +162,130 @@ order:5;
   background-image:linear-gradient(to bottom,#e1c182 0,#e1c893 100%);
 }
 
+/* work */
 
+.work
+{
+  background-color: #e5eaee;
+  padding: 90px 90px;
+}
+.lockup-work
+{
+  max-width: 960px;
+margin: 0 auto;
+
+}
+
+.work
+{
+  background-color: #e5efee;
+
+}
+
+.thumb-unit
+{
+  display: block;
+  width: 25%;
+  float: left;
+  background-color: pink;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20%;
+    position: relative;
+}
+
+@@media screen and (max-width:520px) {
+  .thumb-unit
+  {
+    width: 50% !important;
+  }
+}
+
+.unit1
+{
+    background-image: url('asset/work/proj-1/thumb.jpg');
+}
+.unit2
+{
+    background-image: url('asset/work/proj-2/thumb.jpg');
+}
+
+.unit3
+{
+    background-image: url('asset/work/proj-3/thumb.jpg');
+}
+.unit4
+{
+    background-image: url('asset/work/proj-4/thumb.jpg');
+}
+.unit5
+{
+    background-image: url('asset/work/proj-5/thumb.jpg');
+}
+.unit6
+{
+    background-image: url('asset/work/proj-6/thumb.jpg');
+}
+.unit7
+{
+    background-image: url('asset/work/proj-7/thumb.jpg');
+}
+.unit8
+{
+    background-image: url('asset/work/proj-8/thumb.jpg');
+}
+
+
+
+.thumbnail-container
+{
+
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+clear: both;
+overflow: hidden;
+}
+.overlay
+{
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  top:0;
+text-align: center;
+overflow: hidden;
+opacity: 0;
+}
+
+.overlay strong{
+  margin-top:10px;
+  color:white;
+  font-size: 24px;
+  text-transform: uppercase;
+
+}
+
+.overlay:hover{
+  background: #e1c182;
+  padding: 30px;
+  opacity: 0.9;
+}
 
 
 /* Footer */
 
-footer{
-  position: relative;
-  margin-top: 100px;
-}
+
 
 .lockup
 {
 
   padding-top: 50px;
   height: 150px;
-  background:url('img/hero-bg.jpg');
+  background:url('asset/img/hero-bg.jpg');
   background-position: center;
   background-size: cover;
 }
