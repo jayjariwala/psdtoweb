@@ -187,8 +187,6 @@ margin: 0 auto;
   display: block;
   width: 25%;
   float: left;
-  background-color: pink;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -196,10 +194,20 @@ margin: 0 auto;
     position: relative;
 }
 
-@@media screen and (max-width:520px) {
+@media screen and (max-width:520px) {
   .thumb-unit
   {
-    width: 50% !important;
+    width: 50%;
+  }
+  .thumbnail-container
+  {
+    max-width: 100%;
+  }
+  .work
+  {
+    padding-top: 90px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -262,16 +270,16 @@ opacity: 0;
 }
 
 .overlay strong{
-  margin-top:10px;
+
   color:white;
-  font-size: 24px;
+  font-size: 1.5em;
   text-transform: uppercase;
 
 }
 
 .overlay:hover{
   background: #e1c182;
-  padding: 30px;
+  padding: 5%;
   opacity: 0.9;
 }
 
