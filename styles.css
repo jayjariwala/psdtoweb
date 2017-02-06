@@ -283,6 +283,64 @@ opacity: 0;
   opacity: 0.9;
 }
 
+/* client testimonials */
+
+.client_testimonials
+{
+  padding-top: 90px;
+}
+.testimonials-belt
+{
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.testimonials_lockup
+{
+  max-width: 100%;
+  position: relative;
+}
+.icon-next
+{
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top:-15px;
+}
+
+.icon-back
+{
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+
+  margin-top:-15px;
+
+}
+.writer-text
+{
+  max-width: 435px;
+  font-size: 18px;
+  font-weight: 200;
+  display: inline-block;
+  text-align: justify;
+  margin-left: 40px;
+}
+
+.icon-writer
+{
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  float: left;
+}
+
+.img-writer
+{
+  margin: 0 auto;
+}
 
 /* Footer */
 
