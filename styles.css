@@ -345,6 +345,7 @@ opacity: 0;
 
 .clients_logos
 {
+  padding-top: 50px;
   display: flex;
 align-items: center;
 justify-content: space-around;
