@@ -38,7 +38,7 @@ nav a:hover
 color:black;
 text-decoration:none;
 }
-h1
+header > h1
 {
   padding-top: 100px;
   color:white;
@@ -345,7 +345,7 @@ opacity: 0;
 
 .clients_logos
 {
-  padding-top: 50px;
+  padding: 50px 0 80px;
   display: flex;
 align-items: center;
 justify-content: space-around;
@@ -353,6 +353,61 @@ max-width: 780px;
 margin: 0 auto;
 
 }
+.active-client
+{
+border-bottom: 5px solid #e1c182;
+}
+
+/* Social Links */
+
+.social
+{
+  background-color:#e5efee;
+  padding: 0px 0 0px;
+}
+
+.social-wrap
+{
+  max-width:660px;
+  margin: 0 auto;
+  padding: 100px 0 100px;
+  text-align: center;
+}
+
+.link-wrap
+{
+  padding:45px 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.line
+{
+  height:5px;
+  background-color:#e1c182;
+  max-width:150px;
+  margin:0 auto;
+
+}
+
+.link-wrap > a{
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  font-size: 28px;
+  padding-top: 11px;
+  border-radius: 50%;
+  border-color:
+  display: block;
+  height: 50px;
+  width: 50px;
+  background-color: #e1c182;
+}
+
+
+
+
 /* Footer */
 
 
