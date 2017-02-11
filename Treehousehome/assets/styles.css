@@ -3,6 +3,8 @@ body
   margin: 0;
   background-color:black;
 }
+
+/* header and navigation */
 header
 {
   background-color: #ffffff;
@@ -15,13 +17,12 @@ margin: 30px 0 30px;
 font-family: 'Maven Pro', sans-serif;
 color: #9b9b9b;
 text-transform: uppercase;
-font-size: 18px;
 }
 
 .logocontainer
 {
 display: inline-block;
-
+font-size: 18px;
 }
 .logo
 {
@@ -54,4 +55,44 @@ margin-left: 230px;
   margin-left: 40px;
   text-decoration: none;
   color: #9b9b9b;
+  font-size: 14px;
 }
+
+  /* responsive */
+@media (max-width:750px)
+{
+
+  .headerlockup
+  {
+  margin: 10px 0 10px;
+  }
+
+  .navcontainer {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+    margin-top: 6px;
+    text-align: center;
+    }
+
+    .navcontainer a
+    {
+      display: block;
+      margin-left: 10px;
+      font-size: 14px;
+    }
+
+  .logocontainer {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto;
+  }
+  .logo
+  {
+    margin: 0;
+
+  }
+}
+
+/* header and navigation */
