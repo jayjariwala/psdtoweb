@@ -170,7 +170,6 @@ margin-left: 230px;
   max-width: 940px;
   margin: 100px auto 100px;
   text-align: center;
-
 }
 .headingtext
 {
@@ -236,4 +235,137 @@ p{
 {
 width: 290px;
 }
+
+@media (max-width:750px)
+{
+  .thumbnaillockup
+  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+      margin-top: 20px;
+  }
+
+  .service
+  {
+    margin-top: 40px;
+  }
+}
+
 /* Service container */
+
+
+/* Let Us Section */
+
+
+
+
+.gearrelexlockup
+{
+  position: relative;
+}
+
+.gearlockup
+{
+position: absolute;
+left:0;
+width: 428px;
+background-color: gray;
+height: 616px;
+
+}
+
+.relexchecklistlockup
+{
+  margin-left: 428px;
+}
+.gearlockup img{
+  margin-top: 100px;
+  margin-left: 50%;
+  height: 415px;
+  position: absolute;
+  z-index: 5;
+  width: 428px;
+}
+.relexchecklistlockup
+{
+  clear: both;
+  background-image: url('../img/Background1.png');
+  background-size: cover;
+  background-position: center;
+  height: 615px;
+  position:relative;
+  z-index: 10;
+}
+.relexoverlay
+{
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    width: 100%;
+    z-index: 15;
+    color: white;
+}
+
+.Relexheading
+{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 40px;
+    color:white;
+}
+
+.textcontainer
+{
+  position: absolute;
+  margin:100px 0 0 100px;
+}
+
+.and
+{
+  color:#7cc576;
+}
+.check
+{
+  display: block;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #9b9b9b;
+}
+.textcontainer p
+{
+max-width: 500px;
+font-size: 16px;
+
+}
+.fa-check
+{
+  margin: 5px 0 0 5px;
+
+}
+.round
+{
+  height: 25px;
+  display: inline-block;
+ width: 25px;
+ border-radius: 50%;
+ border: 2px solid white;
+ margin-right: 15px;
+}
+
+.checkboxlockup button
+{
+  width: 170px;
+  padding: 0;
+  margin-top: 50px;
+  height: 50px;
+  border-radius:50px 50px 50px 50px;
+  border-width: 0;
+  background-color: #7cc576;
+  color:white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Maven Pro', sans-serif;
+}
+/* Let Us Section */
