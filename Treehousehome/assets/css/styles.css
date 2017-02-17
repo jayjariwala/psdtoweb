@@ -458,4 +458,15 @@ text-align: center;
 {
   font-size: 18px;
 }
+
+.viewdetails
+{
+  font-size: 16px;
+  text-transform: uppercase;
+  color:#7cc576;
+}
+.fa-arrow-right
+{
+  margin-left: 10px;
+}
 /* project section */
