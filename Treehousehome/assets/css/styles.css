@@ -514,17 +514,18 @@ text-align: center;
 .culturecontainer
 {
   background-color: #f9f9f9;
-  padding-top: 100px;
+  overflow: hidden;
 }
 .culturelockup
 {
-
+    margin-top: 100px;
 }
 .cultureheading
 {
-  max-width: 400px;
+  max-width: 330px;
   display: block;
   margin: 0px auto 0px;
+  text-align: center;
 }
 .cultureheading .heading
 {
@@ -543,6 +544,7 @@ text-align: center;
 {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 100px;
 }
 .work_flex
 {
@@ -552,10 +554,102 @@ text-align: center;
 .qualitycontainer
 {
   max-width: 940px;
-  margin: 0 auto;
+  margin: 90px auto;
+  position: relative;
 }
 .work_flex p{
   text-align: justify;
+  font-size: 14px;
+}
+.line
+{
+  height: 5px;
+  position: relative;
+  top: 46px;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #777777;
+    border-radius: 2px 2px 2px 2px;
+  z-index: 0;
+}
+.work-circle
+{
+  width: 90px;
+  height: 90px;
+  position: relative;
+  border-radius: 50%;
+  border: 3px solid  #777777;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+
+  z-index: 5;
+
+}
+
+.work-circle img{
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+}
+
+@media (max-width:900px)
+{
+  .line{
+    display: none;
+  }
+.qualityiconlockup
+{
+  align-items: center;
+  flex-direction: column;
+}
+.work_flex
+{
+  margin-top: 20px;
+}
+
+.work_flex p{
+padding: 5px;
+
+}
+
 }
 
 /* Culture and Values Section */
+
+/* client section */
+.clientlockup
+{
+  margin-top: 100px;
+}
+.clientcontainer
+{
+
+}
+.clientsheading
+{
+  max-width: 400px;
+}
+
+.clientchatlockup p{
+  font-size: 18px;
+}
+.author
+{
+  font-size: 18px;
+}
+.client1 img{
+  height: 220px
+  width:220px;
+}
+.clientimage
+{
+  height: 160px;
+  width: 160px;
+  background-image: url('../img/client1.jpeg');
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+}
+/* client section */
