@@ -620,14 +620,20 @@ padding: 5px;
 .clientlockup
 {
   margin-top: 100px;
-}
-.clientcontainer
-{
 
+}
+.clientchatlockup
+{
+  max-width: 940px;
+  margin: 90px auto;
 }
 .clientsheading
 {
   max-width: 400px;
+}
+.clientlockup2
+{
+  margin-top:-25px;
 }
 
 .clientchatlockup p{
@@ -636,6 +642,8 @@ padding: 5px;
 .author
 {
   font-size: 18px;
+  text-transform: capitalize;
+    color:#7cc576;
 }
 .client1 img{
   height: 220px
@@ -643,13 +651,108 @@ padding: 5px;
 }
 .clientimage
 {
-  height: 160px;
-  width: 160px;
-  background-image: url('../img/client1.jpeg');
+  height: 208px;
+  width: 208px;
+  background-image: url('../img/ryan.jpg');
   border-radius: 50%;
   background-repeat: no-repeat;
   background-size: contain;
+  display: inline-block;
+}
+.clientwords
+{
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  max-width: 640px;
+  display: inline-block;
+  float: right;
+  background-color: #f9f9f9;
+  color: white;
+  position: relative;
+height: 172px;
+text-align: center;
+padding: 20px 10px 0 10px;
+  box-sizing: border-box;
+margin: 28px;
 
+}
+
+.triangle
+{
+  height: 0;
+  width:0;
+  position: absolute;
+  top:47.5px;
+  left:-40px;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right:40px solid #f9f9f9;
+}
+.triright
+{
+  height: 0;
+  width:0;
+  position: absolute;
+  top:47.5px;
+  right:-40px;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left:40px solid #f9f9f9;
+}
+.wordsleft
+{
+  float: left;
+}
+.client1
+{
+  margin-top: -25px;
+  overflow: hidden;
+}
+.clientimage1
+{
+  float:right;
+  background-image: url('../img/sasha.jpg');
+}
+.clientimage3
+{
+  background-image: url('../img/suraj.jpg');
+}
+
+@media (max-width:750px){
+.clientimage
+{
+  height:  150px;
+  display: block;
+  float: none;
+  width: 150px;
+  margin: 0 auto;
+}
+.clientwords
+{
+  height: auto;
+}
+
+
+.triangle
+{
+
+top:-60px;
+left:50%;
+margin-left: -10px;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+border-bottom: 20px solid #f9f9f9;
+}
+.triright
+{
+  top:-60px;
+  left:50%;
+  margin-left: -10px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #f9f9f9;
+}
 
 }
 /* client section */
