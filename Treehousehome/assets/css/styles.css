@@ -638,6 +638,7 @@ padding: 5px;
 
 .clientchatlockup p{
   font-size: 18px;
+  text-transform: none;
 }
 .author
 {
@@ -684,10 +685,10 @@ margin: 28px;
   width:0;
   position: absolute;
   top:47.5px;
-  left:-40px;
-  border-top: 40px solid transparent;
-  border-bottom: 40px solid transparent;
-  border-right:40px solid #f9f9f9;
+  left:-20px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right:20px solid #f9f9f9;
 }
 .triright
 {
@@ -695,10 +696,10 @@ margin: 28px;
   width:0;
   position: absolute;
   top:47.5px;
-  right:-40px;
-  border-top: 40px solid transparent;
-  border-bottom: 40px solid transparent;
-  border-left:40px solid #f9f9f9;
+  right:-20px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left:20px solid #f9f9f9;
 }
 .wordsleft
 {
@@ -737,16 +738,16 @@ margin: 28px;
 .triangle
 {
 
-top:-60px;
+top:-40px;
 left:50%;
 margin-left: -10px;
-border-left: 20px solid transparent;
+border-left: 10px solid transparent;
 border-right: 20px solid transparent;
 border-bottom: 20px solid #f9f9f9;
 }
 .triright
 {
-  top:-60px;
+  top:-40px;
   left:50%;
   margin-left: -10px;
   border-left: 20px solid transparent;
@@ -756,3 +757,218 @@ border-bottom: 20px solid #f9f9f9;
 
 }
 /* client section */
+
+/* talk section */
+
+.talksection
+{
+  background-color:#7cc576;
+  text-align: center;
+}
+.talksection h1
+{
+  text-transform: capitalize;
+  color: white;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 40px;
+  padding-top: 80px;
+  font-weight: 100;
+}
+.talksection button
+{
+  height: 48px;
+  width: 177px;
+  background-color: #7cc576;
+  border: 2px solid white;
+    font-family: 'Maven Pro', sans-serif;
+  border-radius: 2px;
+  color: white;
+  font-size: 18px;
+  text-transform: 18px;
+  margin-bottom: 40px;
+
+}
+
+/* Client section */
+.clienticonlockup
+{
+
+  display: flex;
+  max-width: 940px;
+  margin: 60px auto;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.cicon-1
+{
+background-image: url('../img/client1.png');
+
+}
+
+.cicon-2
+{
+background-image: url('../img/client-2.png');
+}
+
+.cicon-3
+{
+background-image: url('../img/client-3.png');
+}
+
+.cicon-4
+{
+background-image: url('../img/client-4.png');
+}
+.clientlogo
+{
+  width: 180px;
+  height: 42px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+/* Client section */
+
+/* Social Section */
+
+.footersocial
+{
+  background-color: #222222;
+  color: white;
+
+  overflow: hidden;
+}
+
+.sociallocker
+{
+  display: flex;
+  justify-content: space-between;
+  max-width: 950px;
+
+  font-family: 'Roboto Slab', serif;
+
+  margin:60px auto;
+}
+.coltitle
+{
+  margin-bottom: 10px;
+}
+.col1
+{
+  width: 150px;
+}
+.col2
+{
+width: 285px;
+}
+.col3
+{
+  width: 290px;
+}
+
+.para
+{
+  display: inline-block;
+  margin-left: 25px;
+  padding-bottom: 10px;
+}
+.socialwrap
+{
+  position:relative;
+}
+.socialwrap i{
+  position: absolute;
+}
+
+@media (max-width:800px) {
+  .sociallocker
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+  .col1{
+    min-width: 250px;
+  }
+  .col2
+  {
+max-width: 250px;
+  }
+  .col3{
+    max-width: 250px;
+  }
+  .coltitle
+  {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .sociallockup h4:nth-child(2)
+  {
+    display: none;
+  }
+  .sociallockup h4:first-child
+  {
+    display: block;
+    text-align: center;
+    position: static !important;
+  }
+
+}
+/* footer */
+.footercircle
+{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  padding: 2px;
+  margin: 5px;
+}
+.footercircle .fa {
+  font-size: 18px;
+  position: absolute;
+  color: white;
+  margin: 6px 0 0 8px;
+}
+.socialicons
+{
+  max-width: 180px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 4px;
+}
+.sociallockup
+{
+  margin: 30px 0 30px 0;
+}
+.sociallockup h4:first-child
+{
+  position: absolute;
+  font-size: 14px;
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: 100;
+
+  left:200px;
+  color: #9b9b9b;
+}
+
+.sociallockup h4:nth-child(2)
+
+{
+    position: absolute;
+  font-size: 14px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  color: #9b9b9b;
+  right:200px;
+}
+
+
+/* footer */
