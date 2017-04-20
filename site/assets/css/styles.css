@@ -1,0 +1,343 @@
+@font-face {
+font-family: abraham;
+src: url('../fonts/AbrahamLincoln.ttf');
+}
+
+@font-face {
+  font-family: poppins;
+  src:url('../fonts/Poppins-Regular.ttf');
+}
+
+body{
+  margin:0;
+  padding: 0;
+}
+.home
+{
+height: auto;
+text-align: center;
+position: relative;
+}
+
+.hero-container
+{
+  background-image: url('../img/hero1.jpg');
+  background-size: cover;
+  height:120vh;
+  width: 100%;
+}
+.black-overlay
+{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+.nav-links
+{
+  text-align: center;
+}
+.nav-links a{
+
+  font-size: 15px;
+  font-family: 'abraham';
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  margin-left: 8%;
+}
+.nav-links
+{
+margin-top: 10px;
+}
+.nav-links a:first-child{
+  margin-left: 0px;
+}
+.logo
+{
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  border: 2px solid white;
+  margin: 0 auto;
+}
+.navbar-container
+{
+  padding-top: 10px;
+}
+.introduction
+{
+  margin-top: 35vh;
+  color: #ffa800;
+  font-size: 30px;
+  font-family: 'abraham';
+  text-transform:uppercase;
+  letter-spacing: 5px;
+}
+.line
+{
+  height: 5px;
+  border-radius: 10px;
+  width: 400px;
+  border: 0.1px groove white;
+
+  margin: 0 auto;
+}
+.introduction p{
+  color: white;
+  padding: 0;
+  margin: 8px;
+  font-size: 20px;
+}
+.introduction h1
+{
+  margin: 0;
+  display: inline-block;
+}
+.scroll
+{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top:100vh;
+  margin: -70px auto;
+  left: 50%;
+  margin-left: -50px;
+}
+.scrollbox
+{
+  height: 30px;
+  width: 30px;
+  border: 1px inset white;
+  opacity: 0.5;
+  border-bottom: 0;
+  margin: 0 auto;
+
+}
+.scroll p{
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'abraham';
+  letter-spacing: 2px;
+  margin-left: 2px;
+  color: white;
+}
+.down
+{
+  color: white;
+}
+.aboutme
+{
+  height: auto;
+}
+.aboutme_container
+{
+  background-color: #694fca;
+  background: -webkit-linear-gradient(to bottom, #694fca, #b06ab3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4568dc, #b06ab3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding-bottom: 100px;
+}
+.box
+{
+  position: relative;
+  height: 350px;
+  border:8px solid white;
+
+  top: -100px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: 'abraham';
+  color:white;
+}
+.heading
+{
+  text-transform: uppercase;
+    font-size: 80px;
+}
+.box-text p{
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: -10px;
+}
+.laptop
+{
+  vertical-align: 0;
+  position: absolute !important;
+  right:4%;
+  bottom: -30%;
+}
+.box-text
+{
+  margin-top:180px;
+  margin-left: 20px;
+  display: inline-block;
+}
+.number_container
+{
+  font-family: 'abraham';
+  font-size: 180px;
+  position: absolute;
+  left:-20%;
+  top:165px;
+  color: #ffa800;
+}
+
+.me_pic
+{
+  width: 180px;
+  position: relative;
+  left:50%;
+  margin-left: -75px;
+  box-shadow: 15px 15px 20px black;
+}
+.text-me-contain
+{
+margin-top:85px;
+}
+.thumbnail_container
+{
+  margin-top: 50px;
+}
+.thumbnail_container .fa{
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.thumbnail_container h3{
+  font-family: 'abraham';
+  text-transform: uppercase;
+  color:#ffa800;
+  letter-spacing: 2px;
+}
+
+.thumb-logo-container
+{
+  height: 35px;
+  width: 35px;
+  margin-top: 10px;
+  border-radius: 50%;
+  background-position: center center;
+  border: 1px solid #58277e;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-color: white;
+}
+.gtu
+{
+  background-image: url('../img/gtu.png');
+}
+.fdu
+{
+  background-image: url('../img/fdu.png');
+}
+.tb
+{
+  background-image: url('../img/tb.png');
+}
+.mongo
+{
+  background-image: url('../img/mongo.png');
+}
+.express
+{
+  background-image: url('../img/express.png');
+}
+.angular
+{
+  background-image: url('../img/angular.png');
+}
+.node
+{
+    background-image: url('../img/node.png');
+
+}
+.about_text p{
+  font-family: 'poppins';
+  color: white;
+
+}
+.download
+{
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+.download .btn
+{
+  font-family: 'abraham';
+  font-size: 25px;
+  color: #58277e;
+  border: 2px solid #58277e;
+  background-color: #ffdc71;
+  border-radius: 0;
+  box-shadow:-6px 5px 0 0 #f7931e, -6px 5px 0 2px #58277e;
+}
+
+.work
+{
+  height:1000px;
+  background: #b06ab3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #b06ab3, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #b06ab3, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: relative;
+}
+.work_container
+{
+  margin-top: 100px;
+}
+.box2
+{
+left:0;
+margin-left:0;
+border-color: black;
+width: 400px;
+height: 250px;
+}
+.box2 .box-text
+{
+    margin-top: 20px;
+    text-align: center;
+    color:white;
+}
+.work-text
+{
+ padding: 1%;
+  width: 500px;
+  position: relative;
+  left: -100px;
+  top:60px;
+  background-color:#694fca;
+box-shadow: 0px 80px 110px -40px rgba(255, 168, 0, 0.68), 0px 5px 20px rgba(0, 0, 0, 0.6);
+  font-family: 'poppins';
+}
+.work-text p{
+  color:white;
+  font-style: 'poppins';
+  box-sizing: border-box;
+  padding: 5px;
+
+}
+.no2
+{
+  top:-70px;
+  color: #ffa800;
+  left:430px;
+}
+
+@media (max-width:978px) {
+  .box-text
+  {
+    color:red;
+  }
+  .number_container
+  {
+    font-size: 116px;
+    left: 20px;
+    top: 81px;
+  }
+}
